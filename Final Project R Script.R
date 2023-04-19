@@ -42,10 +42,10 @@ dat_2022 <- dat |>
 dat_18_22 <- rbind(dat_2018, dat_2019, dat_2020, dat_2021, dat_2022)
 
 
-dat_18_22 <- dat_18_22 |> 
-  relocate(player, .before = player.id) |> 
-  relocate(tournament.name, .before = tournament.id) |> 
-  relocate(tournament.name:tournament.id, .after = player.id)
+dat_18_22 <- dat_18_22 |>
+  relocate(c(season, date), .before = tournament.id) |> 
+  relocate(tournament.name:purse, .after = tournament.id) |> 
+  relocate(player, .after = player.id)
 
 
 
