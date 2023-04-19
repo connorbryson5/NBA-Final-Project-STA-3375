@@ -25,6 +25,7 @@ dat <- dat |>
   filter(season == c(2018:2022))
 
 
+write.csv(dat, "golf_data_clean.csv", row.names = F)
 
 
 
