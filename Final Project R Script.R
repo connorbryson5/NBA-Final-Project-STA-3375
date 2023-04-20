@@ -4,7 +4,7 @@
 
 # Set Working Directory
 
-setwd("C:/Users/cdbry/Desktop/Sports Analytics Class/Final Project/Data")
+setwd("C:/Users/cdbry/Desktop/Sports Analytics Class/Final Project/NBA-Final-Project-STA-3375")
 
 
 
