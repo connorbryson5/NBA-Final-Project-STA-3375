@@ -52,7 +52,7 @@ dat_18_22 <- dat_18_22 |>
 
 
 
-write.csv(dat, "golf_data_clean.csv", row.names = F)
+write.csv(dat_18_22, "golf_data_clean.csv", row.names = F)
 
 
 
